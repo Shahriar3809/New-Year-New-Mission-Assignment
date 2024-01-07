@@ -88,10 +88,48 @@ header {
   width: 100%;
 }
 
-.party-banner {
+.party-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 1320px;
   height: 600px;
-  background: url("resources/Vectorrr.png");
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+  url('resources/Vectorrr.png');
   margin: 50px auto;
   border-radius: 16px;
+}
+.party-info {
+  width: 650px;
+  margin-left: 125px;
+}
+
+.party-info h1 {
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 900;
+  letter-spacing: 7px;
+  line-height: 88px;
+  font-family: "Merriweather";
+}
+
+.party-info p {
+  font-family: "Inter";
+  color: rgba(222, 220, 220, 0.8);
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.party-info button {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Inter;
+  background: none;
+  border: none;
+  margin-left: 20px;
+}
+.year-picture {
+  margin-right: 100px;
 }
