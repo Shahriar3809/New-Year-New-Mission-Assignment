@@ -1,10 +1,10 @@
-/* Universal Style */
+/*------------------------------------------- Universal Style */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Header area style */
+/*------------------------------------------ Header area style */
 
 header {
   width: 1320px;
@@ -40,7 +40,7 @@ header {
   margin: auto;
 }
 
-/* Offer section style */
+/*---------------------------------------- Offer section style */
 
 .offer-section {
   width: 1320px;
@@ -88,7 +88,7 @@ header {
   width: 100%;
 }
 
-/* Party Section Style */
+/*------------------------------------------ Party Section Style */
 
 .party-section {
   display: flex;
@@ -137,7 +137,7 @@ header {
   margin-right: 100px;
 }
 
-/* Event Time Section */
+/*-------------------------------------- Event Time Section */
 
 .event-time-section {
   width: 1320px;
@@ -182,7 +182,7 @@ header {
   font-family: "Inter";
 }
 
-/* Coming soon section style */
+/*-------------------------------- Coming soon section style */
 .comming-soon-sec {
   width: 1320px;
   height: 482px;
@@ -190,16 +190,94 @@ header {
   margin: 50px auto;
 }
 
-/* Holiday Sale Offer Section */
-
+/*----------------------------- Holiday Sale Offer Section */
 .holiday-sell-sec {
-  width: 1320px;
-  height: 482px;
-  background: pink;
-  margin: 50px auto;
+  margin: 120px auto;
+}
+.holiday-text-area {
+  width: 1068px;
+  text-align: center;
+  margin: auto;
 }
 
-/* Portfolio Section Style */
+.holiday-text-area h4 {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday-text-area h1 {
+  color: #f00;
+  font-family: "Merriweather";
+  font-size: 72px;
+  font-weight: 900;
+  padding: 10px 0px 28px 0px;
+}
+
+
+.sell-special-color {
+  color: #070211;
+}
+
+.holiday-text-area p {
+  color: #08040f;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; 
+  margin-bottom: 25px;
+}
+
+.holiday-discount-sec {
+  width: 1320px;
+  height: 700px;
+  margin: auto;
+  background-image: url("resources/Rectangle2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+
+.surprise-box {
+  width: 720px;
+  height: auto;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+}
+
+.surprise-box img {
+  width: 100%;
+}
+
+.discount-box {
+  width: 433px;
+  height: 450px;
+  position: absolute;
+  right: 0px;
+  bottom: 229px;
+}
+
+.discount-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.percentage {
+  width: 300px;
+  height: 30px;
+  position: absolute;
+  top: 120px;
+  right: 285px;
+}
+
+.percentage img {
+  width: 100%;
+  height: auto;
+}
+
+/*------------------------------------- Portfolio Section Style */
 
 .portfolio-text-sec h4 {
   font-family: "Inter";
@@ -290,9 +368,6 @@ header {
   margin-top: 48px;
 }
 
-.subscribe-field-sec input {
-}
-
 .email-area {
   width: 59%;
   border: none;
@@ -320,7 +395,7 @@ header {
   font-weight: 400;
 }
 
-/* footer style */
+/*-------------------------------------------- footer style */
 footer {
   background: #070211;
   width: 100%;
@@ -363,7 +438,6 @@ footer {
 
 hr {
   color: gainsboro;
-  /* border: 1px solid; */
 }
 
 .social-icons {
