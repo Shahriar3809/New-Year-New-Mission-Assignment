@@ -291,7 +291,6 @@ header {
 }
 
 .subscribe-field-sec input {
-  
 }
 
 .email-area {
@@ -302,7 +301,7 @@ header {
   border-bottom-left-radius: 50px;
   border-top-left-radius: 50px;
   border-right: 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 18px;
 }
 
@@ -316,7 +315,88 @@ header {
   margin: auto;
   margin-left: -5px;
   border: none;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 18px;
   font-weight: 400;
+}
+
+/* footer style */
+footer {
+  background: #070211;
+  width: 100%;
+  height: 609px;
+  margin: auto;
+}
+
+.footer-content {
+  width: 1320px;
+  margin: auto;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.street-address {
+  width: 375px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.phone-and-website-address {
+  width: 375px;
+}
+
+.phone-and-website-address p {
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+hr {
+  color: gainsboro;
+  /* border: 1px solid; */
+}
+
+.social-icons {
+  padding-top: 50px;
+  width: 450px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.social-icons img {
+  width: 65px;
+  height: 65px;
+  margin: auto 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.copyright .all-rights {
+  width: 375px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.unsubscribe {
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 10px;
 }
