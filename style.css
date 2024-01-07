@@ -88,6 +88,8 @@ header {
   width: 100%;
 }
 
+/* Party Section Style */
+
 .party-section {
   display: flex;
   justify-content: space-between;
@@ -95,10 +97,11 @@ header {
   width: 1320px;
   height: 600px;
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
-  url('resources/Vectorrr.png');
-  margin: 50px auto;
+    url("resources/Vectorrr.png");
+  margin: 60px auto;
   border-radius: 16px;
 }
+
 .party-info {
   width: 650px;
   margin-left: 125px;
@@ -121,15 +124,135 @@ header {
 }
 
 .party-info button {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   text-align: center;
   font-weight: 700;
-  font-family: Inter;
+  font-family: "Inter";
   background: none;
   border: none;
   margin-left: 20px;
 }
 .year-picture {
   margin-right: 100px;
+}
+
+/* Event Time Section */
+
+.event-time-section {
+  width: 1320px;
+  height: 482px;
+  margin: 100px auto;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 101, 101, 0.232) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+}
+
+.time-and-date {
+  padding-top: 100px;
+}
+.time-and-date h4 {
+  color: #08040f;
+  font-size: 32px;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.red-text {
+  color: #f00;
+}
+
+.join-button {
+  width: 170px;
+  margin: 48px auto;
+}
+.join-button button {
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background-color: #f00;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter";
+}
+
+/* Coming soon section style */
+.comming-soon-sec {
+  width: 1320px;
+  height: 482px;
+  background: green;
+  margin: 50px auto;
+}
+/* Holiday Sale Offer Section */
+
+.holiday-sell-sec {
+  width: 1320px;
+  height: 482px;
+  background: pink;
+  margin: 50px auto;
+}
+
+/* Portfolio Section Style */
+
+.portfolio-text-sec h4 {
+  font-family: "Inter";
+  font-size: 24px;
+  color: #ff0000;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.portfolio-text-sec h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #04000b;
+  font-family: "Merriweather";
+}
+
+.portfolio-text-sec p {
+  width: 890px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  color: rgb(101, 99, 106);
+  font-family: 'Inter';
+  font-size: 20px;
+  line-height: 32px;
+}
+
+
+.portfolio-sec {
+  width: 1320px;
+  background: lightblue;
+  height: 4000px;
+  margin: auto;
+}
+
+.portfolio-items-sec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.item {
+  width: 32%;
+}
+
+.item img {
+  width: 100%;
+}
+
+
+
+
+.portfolio-subscribe-sec {
+    background: #cdcaca;
+    width: 100%;
+    
 }
