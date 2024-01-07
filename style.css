@@ -1,0 +1,97 @@
+/* Universal Style */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header area style */
+
+header {
+  width: 1320px;
+  height: 600px;
+  background: url("resources/BannerImage.png");
+  margin: 50px auto;
+  border-radius: 16px;
+}
+
+.banner {
+  border-radius: 16px;
+  background: linear-gradient(to bottom, #010004 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.small-heading {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  font-family: "Merriweather";
+  padding-top: 170px;
+}
+
+.big-heading {
+  width: 632px;
+  height: 190px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  padding-top: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Merriweather";
+  margin: auto;
+}
+
+/* Offer section style */
+
+.offer-section {
+  width: 1320px;
+  margin: auto;
+}
+
+.text-area {
+  width: 500px;
+  margin: auto;
+}
+
+.text-area h1 {
+  color: #ff0000;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 100px;
+  font-family: "Inter";
+  font-size: 88px;
+}
+
+.text-area h6 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Inter";
+  color: #ff0000;
+  margin-top: 48px;
+}
+
+.text-area h3 {
+  font-size: 48px;
+  color: #040207;
+  text-align: center;
+  font-weight: 700;
+  font-family: Inter;
+  margin-top: 5px;
+}
+
+.picture-area {
+  width: 803px;
+  margin: 48px auto;
+}
+
+.picture-area img {
+  width: 100%;
+}
+
+.party-banner {
+  width: 1320px;
+  height: 600px;
+  background: url("resources/Vectorrr.png");
+  margin: 50px auto;
+  border-radius: 16px;
+}
