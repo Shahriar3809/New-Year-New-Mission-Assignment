@@ -98,7 +98,7 @@ header {
   height: 600px;
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
     url("resources/Vectorrr.png");
-  margin: 60px auto;
+  margin: 100px auto;
   border-radius: 16px;
 }
 
